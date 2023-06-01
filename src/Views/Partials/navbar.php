@@ -6,8 +6,8 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="<?php echo $routes->get('homepage')->getPath(); ?>">Home</a></li>
+                    <li><a href="<?php echo $routes->get('gallery')->getPath(); ?>">Gallery</a></li>
                     <li><a href="#">Me</a></li>
                 </ul>
         </div>
