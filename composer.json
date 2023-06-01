@@ -1,0 +1,26 @@
+{
+    "name": "nic/iteca",
+    "description": "iteca ecommerce project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicholas Bosman"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^6.3",
+        "symfony/http-foundation": "^6.3",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "scripts": {
+        "dev": [
+          "Composer\\Config::disableProcessTimeout",
+          "php -S localhost:8000 -t public"
+        ]
+      }
+}

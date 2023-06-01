@@ -12,3 +12,4 @@ public function __construct()
             $_SESSION['error'] = $e->getMessage();
         }
     }
+
