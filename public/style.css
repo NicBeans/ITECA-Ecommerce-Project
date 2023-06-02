@@ -86,9 +86,13 @@ p{
 /* .header{
     background: radial-gradient(#fdc2db, #ff9c9c );
 } */
-.featured-items{
- /* tba */
+.featured-items h2{
+    text-align: center;
 }
-.featured-items h1{
+.gallery h2{
+    text-align: center;
+    font-size: 40px;
+}
+.gallery-items{
     align-self: center;
 }
