@@ -8,7 +8,7 @@
         </div>
         <div class="col">
             <div class="printout1">
-                <img src="/images/printout_poster1.png" alt="Printouts of my art">
+                <img src="https://iteca-project.fra1.cdn.digitaloceanspaces.com/printout_poster1.png" alt="Printouts of my art">
             </div>
         </div>
     </div>
@@ -18,13 +18,13 @@
         <h2>Featured Items</h2>
         <div class="row">
             <div class="col-1">
-                <img src="/images/astronaut1.png" alt="featured item 1" width="612px">
+                <img src="https://iteca-project.fra1.cdn.digitaloceanspaces.com/astronaut1.png" alt="featured item 1" width="612px">
             </div>
             <div class="col-1">
-                <img src="/images/printout_poster2.png" alt="featured item 2" width="612px">
+                <img src="https://iteca-project.fra1.cdn.digitaloceanspaces.com/printout_poster2.png" alt="featured item 2" width="612px">
             </div>
             <div class="col-1">
-                <img src="/images/space_kitten1.png" alt="featured item 3" width="612px">
+                <img src="https://iteca-project.fra1.cdn.digitaloceanspaces.com/space_kitten1.png" alt="featured item 3" width="612px">
             </div>
         </div>
     </div>

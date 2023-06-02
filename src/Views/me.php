@@ -7,14 +7,14 @@
         </div>
         <div class="col">
             <div class="printout1">
-                <img src="images/printout_poster1.png" alt="Printouts of my art">
+                <img src="https://iteca-project.fra1.cdn.digitaloceanspaces.com/printout_poster1.png" alt="Printouts of my art">
             </div>
         </div>
     </div>
     <div class="row">
     <div class="col">
             <div class="printout2">
-                <img src="images/printout_poster2.png" alt="Printouts of my art">
+                <img src="https://iteca-project.fra1.cdn.digitaloceanspaces.com/printout_poster2.png" alt="Printouts of my art">
             </div>
         </div>
         <div class="col">
