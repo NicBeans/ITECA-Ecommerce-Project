@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Sebastian Kornel Art</title>
+    <link rel="icon" href="https://iteca-project.fra1.cdn.digitaloceanspaces.com/logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

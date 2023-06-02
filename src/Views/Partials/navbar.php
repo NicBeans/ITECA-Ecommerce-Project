@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="images/logo.jpg" alt="logo" width="200px">
+                <img src="https://iteca-project.fra1.cdn.digitaloceanspaces.com/logo.svg" alt="logo" width="200px">
             </div>
             <nav>
                 <ul>
