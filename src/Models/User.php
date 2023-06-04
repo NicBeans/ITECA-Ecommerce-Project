@@ -77,7 +77,7 @@ class User
     public function createUser($username, $email, $password)
     {
         $hashed_password = password_hash($password, '2y');
-        $this->db->query('INSERT INTO SebKorArt.userdata (username, email, password) VALUES (:username, :email, :password)');
+        $this->db->query('INSERT INTO SebKorArt.UserData (username, email, password) VALUES (:username, :email, :password)');
         $this->db->bind(':username', $name);
         $this->db->bind(':email', $email);
         $this->db->bind(':password', $hashed_password);
