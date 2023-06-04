@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	} else {
 		$username->getUserByEmail($email);
 		if ($username->getId() && password_verify($password, $username->getPassword())) {
-			$_SESSION['username$username'] = serialize($username->getId());
+			$_SESSION['user'] = serialize($username->getUsername());
 			header('Location:/ ');
 			exit;
 		} else {

@@ -10,3 +10,4 @@ $routes->add('gallery', new Route('/gallery', array('controller' => 'PageControl
 $routes->add('me', new Route('/me', array('controller' => 'PageController', 'method' => 'meAction'), array()));
 $routes->add('login', new Route('/login', array('controller' => 'PageController', 'method' => 'loginAction'), array()));
 $routes->add('register', new Route('/register', array('controller' => 'PageController', 'method' => 'registerAction'), array()));
+$routes->add('logout', new Route('/logout', array('controller' => 'PageController', 'method' => 'logoutAction'), array()));
