@@ -15,5 +15,4 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../src/routes/web.php';
 
-include_once "../src/Views/Partials/navbar.php";
 require_once __DIR__ . '/../src/Router.php';
