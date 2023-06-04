@@ -10,6 +10,7 @@
                     <li><a href="<?php echo $routes->get('gallery')->getPath(); ?>">Gallery</a></li>
                     <li><a href="<?php echo $routes->get('me')->getPath(); ?>">Me</a></li>
                     <li><a href="<?php echo $routes->get('login')->getPath(); ?>">Login</a></li>
+                    <li><a href="<?php echo $routes->get('register')->getPath(); ?>">Register</a></li>
                 </ul>
         </div>
     </div>

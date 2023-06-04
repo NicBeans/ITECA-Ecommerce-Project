@@ -28,4 +28,9 @@ class PageController
         include_once "../src/Views/Partials/navbar.php";
         require_once __DIR__ . '/../Views/Userdata/login.php';
     }
+    public function registerAction(RouteCollection $routes)
+    {
+        include_once "../src/Views/Partials/navbar.php";
+        require_once __DIR__ . '/../Views/Userdata/register.php';
+    }
 }

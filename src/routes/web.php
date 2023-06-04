@@ -9,3 +9,4 @@ $routes->add('homepage', new Route('/', array('controller' => 'PageController', 
 $routes->add('gallery', new Route('/gallery', array('controller' => 'PageController', 'method' => 'galleryAction'), array()));
 $routes->add('me', new Route('/me', array('controller' => 'PageController', 'method' => 'meAction'), array()));
 $routes->add('login', new Route('/login', array('controller' => 'PageController', 'method' => 'loginAction'), array()));
+$routes->add('register', new Route('/register', array('controller' => 'PageController', 'method' => 'registerAction'), array()));
