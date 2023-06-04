@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use Symfony\Component\Routing\RouteCollection;
+use App\Models\User;
 
 class PageController
 {
@@ -25,11 +26,13 @@ class PageController
     }
     public function loginAction(RouteCollection $routes)
     {
+        $username = new User();
         include_once "../src/Views/Partials/navbar.php";
         require_once __DIR__ . '/../Views/Userdata/login.php';
     }
     public function registerAction(RouteCollection $routes)
     {
+        $username = new User();
         include_once "../src/Views/Partials/navbar.php";
         require_once __DIR__ . '/../Views/Userdata/register.php';
     }

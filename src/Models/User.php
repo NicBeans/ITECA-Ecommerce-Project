@@ -7,8 +7,7 @@ class User
 {
     private $db;
     private $id;
-    private $name;
-    private $surname;
+    private $username;
     private $email;
     private $password;
     public function __construct()
@@ -78,60 +77,29 @@ class User
     {
         $hashed_password = password_hash($password, '2y');
         $this->db->query('INSERT INTO SebKorArt.UserData (username, email, password) VALUES (:username, :email, :password)');
-        $this->db->bind(':username', $name);
+        $this->db->bind(':username', $username);
         $this->db->bind(':email', $email);
         $this->db->bind(':password', $hashed_password);
         return $this->db->execute();
     }
-//     public function getUserByEmailOrUsername(string $email = null, string $username = null)
-//     {
-//         if ($email) {
-//             $this->db->query('SELECT * FROM SebKorArt.userdata WHERE email = :email');
-//             $this->db->bind(':email', $email);
-//             $user = $this->db->single();
-//             if ($user) {
-//                 $this->id = $user['id'];
-//                 $this->username = $user['username'];
-//                 $this->email = $user['email'];
-//                 $this->password = $user['password'];
-//             } else {
-//                 $this->id = null;
-//             }
-//         } elseif ($username) {
-//             $this->db->query('SELECT * FROM SebKorArt.userdata WHERE name = :name');
-//             $this->db->bind(':name', $username);
-//             $user = $this->db->single();
-//             if ($user) {
-//                 $this->id = $user['id'];
-//                 $this->name = $user['name'];
-//                 $this->email = $user['email'];
-//                 $this->password = $user['password'];
-//             } else {
-//                 $this->id = null;
-//             }
-//         } else {
-//             $this->id = null;
-//         }
-//         return $this->id;
-//     }
-// }
-public function getUserByEmail(string $email = null)
+    public function getUserByEmail(string $email = null)
     {
         if ($email) {
-            $this->db->query('SELECT * FROM SebKorArt.userdata WHERE email = :email');
+            $this->db->query('SELECT * FROM SebKorArt.UserData WHERE email = :email');
             $this->db->bind(':email', $email);
-            $user = $this->db->single();
-            if ($user) {
-                $this->id = $user['id'];
-                $this->username = $user['username'];
-                $this->email = $user['email'];
-                $this->password = $user['password'];
+            $username = $this->db->single();
+            if ($username) {
+                $this->id = $username['id'];
+                $this->username = $username['username'];
+                $this->email = $username['email'];
+                $this->password = $username['password'];
             } else {
                 $this->id = null;
             }
-        }  else {
+        } else {
             $this->id = null;
         }
+     
         return $this->id;
     }
 }
