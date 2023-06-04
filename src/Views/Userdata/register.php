@@ -26,8 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 					<?php echo $error; ?>
 				</p>
 			<?php endif; ?>
-			<label for="name">Name:</label>
-			<input type="text" name="name" id="name" value="<?php echo isset($name) ? $name : ''; ?>">
+			<label for="name">Username:</label>
+			<input type="text" name="username" id="username" value="<?php echo isset($username) ? $username : ''; ?>">
 			<label for="email">Email:</label>
 			<input type="email" name="email" id="email">
 			<label for="password">Password:</label>
