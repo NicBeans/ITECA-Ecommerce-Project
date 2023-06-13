@@ -19,7 +19,7 @@ During the development of this website, an iterative approach was adopted to ens
 
 ### Accessing the website
 The website can be accessed at the following link:
-[Sebastian Kornel Art](https://sebastiankornelart.com)
+[Sebastian Kornel Art](https://sebastiankornelart.studio)
 
 ## Products: Adding, removing, and updating products
 
