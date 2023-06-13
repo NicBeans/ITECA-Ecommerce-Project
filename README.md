@@ -59,7 +59,7 @@ Since both the administrator and the developer have full access to the hosting p
 
 ## Appendix
 For local development, a few prerequisite steps need to be taken.
-- Install Composer
+- Install [Composer](https://getcomposer.org/)
 - Clone this repository
 - Set up a MySQL server and configure an .env file in the project root directory
 
